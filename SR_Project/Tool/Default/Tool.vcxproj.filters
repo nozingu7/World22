@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{7749aaf5-6086-4295-a805-392954a90b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99.Default\IMGUI">
+      <UniqueIdentifier>{613555a5-9a5f-42f3-9eb5-d5a6d566d8c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainTool">
+      <UniqueIdentifier>{7e13a432-a994-4ae8-a27e-101e0b0365c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Defines">
+      <UniqueIdentifier>{d4e64321-027d-4869-87f1-6a7cdc627fa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. CopyView">
+      <UniqueIdentifier>{5688d6d1-aacd-4810-9db7-6d725b2a5054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Data_Manager">
+      <UniqueIdentifier>{2bcd8468-bc0a-405f-842a-e8ab7a652eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Data_Manager\00.Data_Manager">
+      <UniqueIdentifier>{635c6cdc-e79a-46ef-ba08-b7529f801ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Data_Manager\01.Player_DataManager">
+      <UniqueIdentifier>{28f9e293-2ec6-43cf-b8d6-a860435ada30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Data_Manager\02.Monster_DataManager">
+      <UniqueIdentifier>{340be735-2be8-459d-b6b8-34e7ebe43afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Data_Manager\03.Item_DataManager">
+      <UniqueIdentifier>{b919b66a-f20a-4d0c-bfd2-1a428aafb18f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Data_Manager\04.WorldObj_Manager">
+      <UniqueIdentifier>{6396373c-20cc-4133-a43e-f0cb8e82864d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Data_Manager\00.Data_Manager\Data_Loader">
+      <UniqueIdentifier>{19a51dea-fa5e-4e9f-ac74-66bf85244974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Data_Manager\00.Data_Manager\Data_Saver">
+      <UniqueIdentifier>{a109f7a9-a0bc-4b23-8eec-dffde41f8a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Level">
+      <UniqueIdentifier>{960d85ca-29c3-4984-91f6-007265615a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject">
+      <UniqueIdentifier>{e7a396a4-78c9-4c73-838e-0bc69eba360d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01.Background">
+      <UniqueIdentifier>{10f85f2b-b93b-4356-87c9-c8896e080d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\00.Camera">
+      <UniqueIdentifier>{85e4c7da-d6b9-420e-b05f-2b55523dbe37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\00.Camera\Cam_Tool">
+      <UniqueIdentifier>{c195388c-23d4-4953-9f1a-73406f1da99c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\00.Camera\Cam_Engine">
+      <UniqueIdentifier>{5ba152ab-904d-422b-b757-95704be3b329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\02.Terrian">
+      <UniqueIdentifier>{468ec9c8-c4c0-4f7d-8651-54c6c75b5bc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\03.Character">
+      <UniqueIdentifier>{9459ce22-6528-44fd-95af-ecf5194abcff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\03.Character\01.Player">
+      <UniqueIdentifier>{9e221ca8-18ba-492e-a9ea-7ea9fe1d1605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\03.Character\02.Monster">
+      <UniqueIdentifier>{a0200a41-ed39-40a1-ba03-ed2572ad155f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.IMGUI">
+      <UniqueIdentifier>{1ed2f0ad-f9aa-4fa0-9bb1-4ea8d4221d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.IMGUI\00.Manager">
+      <UniqueIdentifier>{235c7eb9-0fef-4078-86b1-8f28153a188f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.IMGUI\01.CIMGUI">
+      <UniqueIdentifier>{0a1072ae-b72c-4cab-a0e6-fe59c06563ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.IMGUI\01.CIMGUI\00.Parents">
+      <UniqueIdentifier>{1adc5bd3-7517-419e-bf32-11e0d814da7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.IMGUI\01.CIMGUI\01.MainView">
+      <UniqueIdentifier>{75325b86-4400-4c37-a9c8-affb10efaa3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.WorldObj">
+      <UniqueIdentifier>{f8be18f7-bb41-4926-b2f4-d213c5acbfa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Item">
+      <UniqueIdentifier>{cfa012d1-a1c5-462a-a53e-fa235db115cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Item\00.Parents">
+      <UniqueIdentifier>{ca1bac40-6c09-4d01-b62d-8481a5f5c332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\03.Character\02.Monster\00.Parents">
+      <UniqueIdentifier>{ea85f59e-202d-419c-bda0-4b32aa3d3b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.IMGUI\01.CIMGUI\02.FileDialog">
+      <UniqueIdentifier>{ee25ccb0-f3df-4ca9-8371-56e00f6d2cba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\03.Character\00.Parents">
+      <UniqueIdentifier>{236fe430-b0c9-4d04-b3c3-1725185bb9c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.UserInterFace">
+      <UniqueIdentifier>{dc35c8f1-2afb-4cd0-a0fc-d1c617019829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.UserInterFace\00.UI_Default">
+      <UniqueIdentifier>{0a1c9c0b-4873-4a05-b08d-f2059f750e3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.UserInterFace\01.CItem_ToolTip">
+      <UniqueIdentifier>{dfc57af9-f3f6-4b7e-8f80-3ea4a5447a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Level\Level_Tool">
+      <UniqueIdentifier>{2f4377f9-1c68-4ae5-9842-4b017277e818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.UserInterFace\02.Image_Bar">
+      <UniqueIdentifier>{50594fc5-e16e-48a6-961c-84e2316d8db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Item\01.Weapon">
+      <UniqueIdentifier>{e2789a92-c2cb-4b9d-bdad-f2c2cd3af8e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Item\01.Weapon\01.Armor">
+      <UniqueIdentifier>{e8078670-de7f-4bf1-a172-6c03ca53cbc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Item\01.Weapon\02.Sword">
+      <UniqueIdentifier>{9b7ec748-d654-4f57-bc84-1c7f4beb64ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Item\01.Weapon\00.Parents">
+      <UniqueIdentifier>{bcafcc74-6754-4020-b9ec-dea365d567d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Item\01.Weapon\03. Potion">
+      <UniqueIdentifier>{f5bbb76b-d997-4400-b96a-97c271aab9e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95.Data_Manager\01.Player_DataManager">
+      <UniqueIdentifier>{28f9e293-2ec6-43cf-b8d6-a860435ada30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tool_Defines.h">
+      <Filter>98.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CIMGUI_Manager.h">
+      <Filter>02.IMGUI\00.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>99.Default\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>99.Default\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx9.h">
+      <Filter>99.Default\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>99.Default\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>99.Default\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>99.Default\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>99.Default\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>99.Default\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CIMGUI.h">
+      <Filter>02.IMGUI\01.CIMGUI\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMainView.h">
+      <Filter>02.IMGUI\01.CIMGUI\01.MainView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CCopyView.h">
+      <Filter>96. CopyView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CBackground.h">
+      <Filter>03.GameObject\01.Background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CCamera_Tool.h">
+      <Filter>03.GameObject\00.Camera\Cam_Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CCamera_Engine.h">
+      <Filter>03.GameObject\00.Camera\Cam_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMainTool.h">
+      <Filter>00.MainTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CTerrian.h">
+      <Filter>03.GameObject\02.Terrian</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CData_Manager.h">
+      <Filter>95.Data_Manager\00.Data_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CData_Saver.h">
+      <Filter>95.Data_Manager\00.Data_Manager\Data_Saver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CData_Loader.h">
+      <Filter>95.Data_Manager\00.Data_Manager\Data_Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CItem.h">
+      <Filter>04.Item\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CPlayer.h">
+      <Filter>03.GameObject\03.Character\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CMonster.h">
+      <Filter>03.GameObject\03.Character\02.Monster\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CFileDialog.h">
+      <Filter>02.IMGUI\01.CIMGUI\02.FileDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CCharacter.h">
+      <Filter>03.GameObject\03.Character\00.Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CLevel_Tool.h">
+      <Filter>02.Level\Level_Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tool_Macro.h">
+      <Filter>98.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CUI_Default.h">
+      <Filter>06.UserInterFace\00.UI_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CItem_ToolTip.h">
+      <Filter>06.UserInterFace\01.CItem_ToolTip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CImage_Bar.h">
+      <Filter>06.UserInterFace\02.Image_Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CSword.h">
+      <Filter>04.Item\01.Weapon\02.Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CArmor.h">
+      <Filter>04.Item\01.Weapon\01.Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CPotion.h">
+      <Filter>04.Item\01.Weapon\03. Potion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CWeapon.h">
+      <Filter>04.Item\01.Weapon\00.Parents</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>99.Default\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="Tool.ico">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tool.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CIMGUI_Manager.cpp">
+      <Filter>02.IMGUI\00.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>99.Default\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>99.Default\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>99.Default\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx9.cpp">
+      <Filter>99.Default\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>99.Default\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>99.Default\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>99.Default\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CIMGUI.cpp">
+      <Filter>02.IMGUI\01.CIMGUI\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMainView.cpp">
+      <Filter>02.IMGUI\01.CIMGUI\01.MainView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CCopyView.cpp">
+      <Filter>96. CopyView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CBackground.cpp">
+      <Filter>03.GameObject\01.Background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CCamera_Tool.cpp">
+      <Filter>03.GameObject\00.Camera\Cam_Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CCamera_Engine.cpp">
+      <Filter>03.GameObject\00.Camera\Cam_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMainTool.cpp">
+      <Filter>00.MainTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CTerrian.cpp">
+      <Filter>03.GameObject\02.Terrian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CData_Manager.cpp">
+      <Filter>95.Data_Manager\00.Data_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CData_Saver.cpp">
+      <Filter>95.Data_Manager\00.Data_Manager\Data_Saver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CData_Loader.cpp">
+      <Filter>95.Data_Manager\00.Data_Manager\Data_Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CItem.cpp">
+      <Filter>04.Item\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CPlayer.cpp">
+      <Filter>03.GameObject\03.Character\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CMonster.cpp">
+      <Filter>03.GameObject\03.Character\02.Monster\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CFileDialog.cpp">
+      <Filter>02.IMGUI\01.CIMGUI\02.FileDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CCharacter.cpp">
+      <Filter>03.GameObject\03.Character\00.Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CLevel_Tool.cpp">
+      <Filter>02.Level\Level_Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CUI_Default.cpp">
+      <Filter>06.UserInterFace\00.UI_Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CItem_ToolTip.cpp">
+      <Filter>06.UserInterFace\01.CItem_ToolTip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CImage_Bar.cpp">
+      <Filter>06.UserInterFace\02.Image_Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CSword.cpp">
+      <Filter>04.Item\01.Weapon\02.Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CArmor.cpp">
+      <Filter>04.Item\01.Weapon\01.Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CPotion.cpp">
+      <Filter>04.Item\01.Weapon\03. Potion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CWeapon.cpp">
+      <Filter>04.Item\01.Weapon\00.Parents</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
